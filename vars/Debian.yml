@@ -1,8 +1,8 @@
 ---
 
 mysql_pkgs:
-  - mysql-server-5.7
-  - mysql-client-5.7
+  - mysql-server
+  - mysql-client
   - python-mysqldb
 
 mysql_service: mysql
