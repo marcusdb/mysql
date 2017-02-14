@@ -1,8 +1,8 @@
 ---
 
 mysql_pkgs:
-  - python-selinux
   - mysql-server
+  - mysql-client
   - python-mysqldb
 
 mysql_service: mysql
