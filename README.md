@@ -1,6 +1,7 @@
 MySQL Server
 ============
 
+
 This roles helps to install MySQL Server across RHEL and Ubuntu variants.
 Apart from installing the MySQL Server, it applies basic hardening, like
 securing the root account with password, and removing test databases. The role
