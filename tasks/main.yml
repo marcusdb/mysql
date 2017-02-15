@@ -19,6 +19,8 @@
     DEBIAN_FRONTEND: 'noninteractive'
   when: ansible_os_family == 'Debian'
 
+- name: copy mysql config
+  template: src=templates/mysqld.cnf.j2  dest='/etc/mysql/mysql.conf.d/mysqld.cnf' owner=root group=root mode=0644  
 
 - name: Start the mysql services
   service: name={{ mysql_service }} state=started enabled=yes
